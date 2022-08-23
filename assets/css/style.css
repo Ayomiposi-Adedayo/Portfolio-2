@@ -303,8 +303,7 @@ h6 {
 }
 
 .navbar-mobile {
-  position: absolute;
-  height: 200px;
+  position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -334,7 +333,7 @@ h6 {
   overflow-y: auto;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  z-index: 999;
+  
 }
 
 .navbar-mobile li {
@@ -358,7 +357,7 @@ section {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  height: fit-content;
+  /* height: fit-content; */
   top: 140px;
   bottom: 100%;
   opacity: 0;
