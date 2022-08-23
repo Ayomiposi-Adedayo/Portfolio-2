@@ -323,8 +323,7 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  /* top: 55px; */
-  top: 151px;
+  top: 55px;
   right: 15px;
   bottom: 45px;
   left: 15px;
@@ -356,7 +355,6 @@ section {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  /* height: fit-content; */
   top: 140px;
   bottom: 100%;
   opacity: 0;
@@ -368,7 +366,7 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 75px;
+  padding-bottom: 45px;
 
 }
 
