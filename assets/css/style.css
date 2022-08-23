@@ -326,7 +326,7 @@ h6 {
   display: block;
   position: absolute;
   /* top: 55px; */
-  top: 120px;
+  top: 150px;
   right: 15px;
   bottom: 45px;
   left: 15px;
@@ -370,7 +370,7 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 45px;
+  /* padding-bottom: 45px; */
 
 }
 
