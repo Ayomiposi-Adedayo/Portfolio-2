@@ -193,6 +193,8 @@ h6 {
   .hero-bg {
     background: #6e6e6e7a;
       padding: 6%;
+      position: relative;
+      z-index: -1;
   
   }
 }
@@ -323,7 +325,8 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  /* top: 55px; */
+  top: 120px;
   right: 15px;
   bottom: 45px;
   left: 15px;
