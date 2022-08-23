@@ -188,16 +188,14 @@ h6 {
     font-size: 26px;
   }
 }
-
+/* 
 @media screen and (max-width: 990px){ 
   .hero-bg {
     background: #6e6e6e7a;
-      /* width: -moz-fit-content;
-      width: fit-content; */
       padding: 6%;
   
   }
-}
+} */
   
   
 
