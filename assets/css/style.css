@@ -323,7 +323,7 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 125px;
+  top: 55px;
   right: 15px;
   bottom: 45px;
   left: 15px;
@@ -1169,7 +1169,7 @@ a.contact-link:hover {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #169aff;
 }
 
 @-webkit-keyframes animate-loading {

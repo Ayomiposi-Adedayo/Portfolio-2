@@ -1,9 +1,4 @@
-/**
-* Template Name: Personal - v4.8.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -65,6 +60,7 @@
       let header = select('#header')
       let sections = select('section', true)
       let navlinks = select('#navbar .nav-link', true)
+      let hero = select('#header>div')
 
       navlinks.forEach((item) => {
         item.classList.remove('active')
@@ -81,6 +77,8 @@
 
       if (this.hash == '#header') {
         header.classList.remove('header-top')
+        hero.classList.add('hero-bg')
+
         sections.forEach((item) => {
           item.classList.remove('section-show')
         })
@@ -89,6 +87,7 @@
 
       if (!header.classList.contains('header-top')) {
         header.classList.add('header-top')
+        hero.classList.remove('hero-bg')
         setTimeout(function() {
           sections.forEach((item) => {
             item.classList.remove('section-show')
