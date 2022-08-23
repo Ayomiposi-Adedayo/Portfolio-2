@@ -2,12 +2,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body, html {
+height: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
   background: transparent;
+
 }
 
 body::before {
@@ -19,7 +24,9 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
-  /* z-index: -1; */
+  z-index: -1;
+  background-attachment: fixed;
+
 }
 
 @media (min-width: 1024px) {
@@ -354,7 +361,7 @@ section {
   bottom: 100%;
   opacity: 0;
   transition: ease-in-out 0.4s;
-  /* z-index: 0; */
+  z-index: 2147483647;
 }
 
 section.section-show {
@@ -362,6 +369,8 @@ section.section-show {
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
+  z-index: 2147483647;
+
 }
 
 section .container {
