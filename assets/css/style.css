@@ -11,10 +11,10 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
+  /* background: transparent; */
 
 }
-/* 
+
 body::before {
   content: "";
   position: fixed;
@@ -25,15 +25,14 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
-  background-attachment: fixed;
 
-} */
-/* 
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
-} */
+}
 
 a {
   color: #47aeff;
@@ -322,6 +321,7 @@ h6 {
   right: 15px;
 }
 
+
 .navbar-mobile ul {
   display: block;
   position: absolute;
@@ -361,7 +361,7 @@ section {
   bottom: 100%;
   opacity: 0;
   transition: ease-in-out 0.4s;
-  z-index: 2147483647;
+  /* z-index: 2147483647; */
 }
 
 section.section-show {
@@ -369,7 +369,7 @@ section.section-show {
   bottom: auto;
   opacity: 1;
   padding-bottom: 45px;
-  z-index: 2147483647;
+  /* z-index: 2147483647; */
 
 }
 
