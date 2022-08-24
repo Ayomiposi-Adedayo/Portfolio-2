@@ -191,7 +191,8 @@ h6 {
 
 @media screen and (max-width: 990px){ 
   .hero-bg {
-    background: #6e6e6e7a;
+    /* background: #6e6e6e7a; */
+    background: #7676767a;
       padding: 6%;
   
   }
