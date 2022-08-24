@@ -678,7 +678,9 @@ section .container {
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
+  padding-left: 0px;
+  list-style:none;
+
 }
 
 .resume .resume-item ul li {
@@ -723,8 +725,6 @@ ul.about>li>a:hover {
 .resume-icon {
   margin-right: 10px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Services
