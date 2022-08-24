@@ -2,21 +2,29 @@
 (function() {
   "use strict";
 
-  const preloader = document.querySelector('.preloader');
+  // const preloader = document.querySelector('.preloader');
 
-  const fadeOutEffect = setInterval(() => {
-    if (!preloader.style.opacity) {
-      preloader.style.opacity = 1;
-    }
-    if (preloader.style.opacity > 0) {
-      preloader.style.opacity -= 0.1;
-    } else {
-      clearInterval(fadeEffect);
-    }
-  }, 100);
+  // const fadeOutEffect = setInterval(() => {
+  //   if (!preloader.style.opacity) {
+  //     preloader.style.opacity = 1;
+  //   }
+  //   if (preloader.style.opacity > 0) {
+  //     preloader.style.opacity -= 0.1;
+  //   } else {
+  //     clearInterval(fadeEffect);
+  //   }
+  // }, 150);
 
-  window.addEventListener('load', fadeOutEffect);
+  // // window.addEventListener('load', fadeOutEffect);
+  // window.onload = fadeOutEffect()
 
+  let preloader = document.querySelector(".preloader")
+
+window.addEventListener("load", vanish)
+
+function vanish() {
+  preloader.classList.add("disappear")
+}
   /**
    * Easy selector helper function
    */
