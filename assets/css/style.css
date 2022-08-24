@@ -700,6 +700,25 @@ section .container {
   background: #47aeff;
   border: 2px solid #47aeff;
 }
+.resume .resume-item a {
+  color: #47aeff;
+  transition: .3s;
+}
+
+.resume .resume-item a:hover {
+  color: rgb(255, 255, 255);
+}
+
+ul.about>li>a {
+  color: #47aeff;
+  transition: .3s;
+}
+
+ul.about>li>a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
