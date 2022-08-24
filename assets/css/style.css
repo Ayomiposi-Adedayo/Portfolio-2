@@ -1281,14 +1281,13 @@ margin: 4% 0;
   position: fixed;
   top: 0;
   left: 0;
-  background: rgb(26, 26, 26);
+  background: rgb(13, 13, 13);
   display: flex;
   height: 100vh;
   width: 100%;
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  /* opacity: 1;  */
 }
 
 .disappear {
@@ -1310,17 +1309,15 @@ margin: 4% 0;
   }
 }
 
-
-
  
 
 .loader {
-  border: 16px solid #f3f3f3;
+  border: 5px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #47aeff;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
+  border-top: 5px solid #47aeff;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; 
   animation: spin 2s linear infinite;
 }
 
