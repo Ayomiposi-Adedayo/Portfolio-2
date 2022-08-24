@@ -703,10 +703,12 @@ section .container {
 .resume .resume-item a {
   color: #47aeff;
   transition: .3s;
+  margin-left: 3px;
 }
 
 .resume .resume-item a:hover {
   color: rgb(255, 255, 255);
+
 }
 
 ul.about>li>a {
@@ -716,6 +718,10 @@ ul.about>li>a {
 
 ul.about>li>a:hover {
   color: rgb(255, 255, 255);
+}
+
+.resume-icon {
+  margin-right: 10px;
 }
 
 
