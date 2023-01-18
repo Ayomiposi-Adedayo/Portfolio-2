@@ -691,6 +691,11 @@ section .container {
   list-style:none;
 
 }
+.resume .resume-item ul.resume-list {
+  padding-left: 20px;
+  list-style:disc;
+
+}
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
